@@ -19,19 +19,6 @@ class Buyer(models.Model):
     def __str__(self):
         return f'{self.name} {self.surname}'
 
-class Storage(models.Model):
-    id_storage = models.AutoField(primary_key=True)
-    street = models.CharField(verbose_name='Улица', max_length=250)
-    number_of_street = models.PositiveIntegerField(verbose_name='Номер дома')
-
-    def __str__(self):
-        return f'{self.street} {self.number_of_street}'
-
-    class Meta:
-        verbose_name = 'Склад'
-        verbose_name_plural = 'Склад'
-        ordering = ['street']
-
 class Owner(models.Model):
     id_owner = models.AutoField(primary_key=True)
     name = models.CharField(verbose_name='Имя', max_length=50)
@@ -47,6 +34,20 @@ class Owner(models.Model):
         verbose_name_plural = 'Владельцы'
         ordering = ['name']
 
+
+class Storage(models.Model):
+    id_storage = models.AutoField(primary_key=True)
+    street = models.CharField(verbose_name='Улица', max_length=250)
+    number_of_street = models.PositiveIntegerField(verbose_name='Номер дома')
+    owner = models.ManyToManyField(Owner)
+
+    def __str__(self):
+        return f'{self.street} {self.number_of_street}'
+
+    class Meta:
+        verbose_name = 'Склад'
+        verbose_name_plural = 'Склад'
+        ordering = ['street']
 
 class Car(models.Model):
     id_car = models.AutoField(primary_key=True)
