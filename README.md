@@ -50,5 +50,36 @@ values_list() запросы
 ![image](https://github.com/user-attachments/assets/7ede4616-1456-47bb-abfb-f9159dcdc693)
 ![image](https://github.com/user-attachments/assets/c446c1cb-895e-450c-801f-2a689c9e12e3)
 
-4 
+4 Задание
+
+AND()
+![image](https://github.com/user-attachments/assets/411c30bc-1d29-4fda-ad8a-932eca8c8bc6)
+![image](https://github.com/user-attachments/assets/81f1ce29-9808-4511-9150-8dc0f69de537)
+![image](https://github.com/user-attachments/assets/03365571-3672-4622-9121-919cb6745dcc)
+
+OR()
+![image](https://github.com/user-attachments/assets/0745e01a-991a-462e-be60-d86842fb2b45)
+![image](https://github.com/user-attachments/assets/5cba9d62-090b-47b2-a898-6ccd0f14f7dd)
+![image](https://github.com/user-attachments/assets/9e664981-b7e2-4b4d-9348-0b9a7e850a5d)
+
+~()
+![image](https://github.com/user-attachments/assets/81f1ce29-9808-4511-9150-8dc0f69de537)
+![image](https://github.com/user-attachments/assets/cfa4b58e-e83c-462b-a31a-138c9ac3c93d)
+![image](https://github.com/user-attachments/assets/4f76c5f5-fb08-4e5e-b856-05b849bbdfcb)
+
+
+5 ЗАДАНИЕ
+aggregate()
+![image](https://github.com/user-attachments/assets/17877790-456d-4694-bab0-541e478fe11f)
+![image](https://github.com/user-attachments/assets/5b55b1af-f55b-4447-b02d-a2f39cf47042)
+![image](https://github.com/user-attachments/assets/f5b9cb56-44c6-4bbb-8e9a-a9eec644475f)
+
+annotate()
+![image](https://github.com/user-attachments/assets/dcd5c616-ccad-40ec-8e76-2c3f950e71c5)
+![image](https://github.com/user-attachments/assets/609ed7a1-513f-4a24-b265-929521b86a76)
+![image](https://github.com/user-attachments/assets/8a0b6e80-db1b-4613-bbcc-3de4a0c3bf49)
+
+
+
+
 
